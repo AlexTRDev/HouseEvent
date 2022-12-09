@@ -1,12 +1,3 @@
-import { useState } from 'react'
-
-const initialState = {
-  infantil: true,
-  familiar: true,
-  social: true,
-  boda: true,
-}
-
 function HouseFilter() {
   return (
     <div className="lg:sticky lg:top-4 ">
