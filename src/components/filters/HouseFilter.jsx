@@ -8,12 +8,6 @@ const initialState = {
 }
 
 function HouseFilter() {
-  const [type, setType] = useState(initialState)
-
-  const handleChange = (e) => {
-    e.preventDefault()
-    console.log(e.target.name)
-  }
   return (
     <div className="lg:sticky lg:top-4 ">
       <details
